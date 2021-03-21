@@ -1,0 +1,77 @@
+
+
+/* titles on all pages */
+h1 {
+    color: #3ba9ba;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+/* so it sits nicer next to the images */
+p {
+    padding-top: 15px;
+}
+
+/* spacing on top */
+.container {
+    padding-top: 20px;
+}
+
+/* spacing for the white block that holds everything */
+.d-block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+/* add extra margins to the contact page */
+form {
+    margin: 0px 15px 15px 15px;
+}
+
+/* add extra margins to the other pages */
+.extraspace {
+    margin: 0px 15px 15px 15px;
+}
+
+/* mostly for the portfolio page to break nicer */
+img {
+    margin: 15px 15px 15px 15px;
+}
+
+/* move image on index page to the left */
+#toTheLeft {
+    float: left;
+}
+
+/* at smallest size fill content edge to edge */
+@media (max-width: 575.98px) { 
+    .d-block {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    } 
+
+    form {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;  
+    }
+
+    .extraspace {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px; 
+    }
+
+    img {
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+    }
+    .container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 25px 0px;
+    }
+    
+}
