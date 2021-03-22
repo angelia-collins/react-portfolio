@@ -1,19 +1,18 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
+import Block from "../components/Block/index";
+import Header from "../components/Header/index";
 
-function Home() {
-    return (
-      <Container fluid>
-        <Row>
-<h1>Contact</h1>          
-{/* <Col size="md-6">
-          </Col>
-          <Col size="md-6 sm-12">
-            <PostsList />
-          </Col> */}
-        </Row>
-      </Container>
-    );
-  }
-  
-  export default Home;
+function Contact() {
+  return (
+    <Container fluid>
+      <Block>
+        <Header>Contact</Header>
+
+
+      </Block>
+    </Container>
+  );
+}
+
+export default Contact;

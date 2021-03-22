@@ -1,12 +1,14 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Block from "../components/Block/index";
+import Header from "../components/Header/index";
 
 function Home() {
   return (
     <Container fluid>
       <Block>
-        <h1>About Me</h1>
+        <Header>About Me</Header>
+        {/* <h1 style={{color:"#3ba9ba", marginTop:"15px", marginBottom:"20px"}}>About Me</h1> */}
         <div className="dropdown-divider"></div>
         <img src="assets/my-ac-avatar.png" className="img-fluid" id="toTheLeft" alt="animal crossing avatar" />
         <p>Graphic Design, Art Direction and now Developer. I am a one-stop shop extraordinaire for anything you need.
@@ -23,7 +25,7 @@ function Home() {
         </p>
       </Block>
     </Container>
-  );
+      );
 }
 
 export default Home;
