@@ -8,6 +8,7 @@ function Portfolio() {
     <Container fluid>
       <Block>
         <Header>Portfolio</Header>
+        <div className="dropdown-divider"></div>
 
 
       </Block>

@@ -16,24 +16,9 @@ p {
     padding-top: 15px;
 }
 
-/* spacing on top */
-.container {
-    padding-top: 20px;
-}
-
-/* spacing for the white block that holds everything */
-.d-block {
-    margin-top: 15px;
-    margin-bottom: 15px;
-} 
 
 /* add extra margins to the contact page */
 form {
-    margin: 0px 15px 15px 15px;
-}
-
-/* add extra margins to the other pages */
-.extraspace {
     margin: 0px 15px 15px 15px;
 }
 
