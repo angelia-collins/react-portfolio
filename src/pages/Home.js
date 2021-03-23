@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Block from "../components/Block/index";
 import Header from "../components/Header/index";
+import avatar from "../assets/my-ac-avatar.png";
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
       <Block>
         <Header>About Me</Header>
         <div className="dropdown-divider"></div>
-        <img src="assets/my-ac-avatar.png" className="img-fluid" id="toTheLeft" alt="animal crossing avatar" />
+        <img src={avatar} className="img-fluid" style={{float: "left", margin: "15px 15px 15px 15px"}} alt="animal crossing avatar" />
         <p>Graphic Design, Art Direction and now Developer. I am a one-stop shop extraordinaire for anything you need.
           <br /><br />
           I started my career designing for social media campaigns and have since created the full gambit of print and
