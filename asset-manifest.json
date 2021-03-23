@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.03cf930e.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.29690500.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.29690500.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.fac0e96a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.fac0e96a.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.71145a1b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.71145a1b.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -13,13 +13,16 @@
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.03cf930e.chunk.css.map": "/react-portfolio/static/css/main.03cf930e.chunk.css.map",
-    "static/js/2.aa544469.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.aa544469.chunk.js.LICENSE.txt"
+    "static/js/2.aa544469.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.aa544469.chunk.js.LICENSE.txt",
+    "static/media/corona.ac2bbca3.png": "/react-portfolio/static/media/corona.ac2bbca3.png",
+    "static/media/creeper.01219196.png": "/react-portfolio/static/media/creeper.01219196.png",
+    "static/media/weather.a2601145.png": "/react-portfolio/static/media/weather.a2601145.png"
   },
   "entrypoints": [
     "static/js/runtime-main.71145a1b.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.aa544469.chunk.js",
     "static/css/main.03cf930e.chunk.css",
-    "static/js/main.29690500.chunk.js"
+    "static/js/main.fac0e96a.chunk.js"
   ]
 }
